@@ -45,8 +45,8 @@
     "devcontainer.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/devcontainer",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/devcontainer.md",
-      "hash": "3ff4766baabccbd3a8a44f73ef664af9732aa4ac185d753899498f2b9c07e666",
-      "last_updated": "2025-07-31T03:30:19.183629"
+      "hash": "9f0b062248ffc15d89f1653f16958144e4a8a30531f00585818b221a6aa843ae",
+      "last_updated": "2025-08-01T18:01:45.636193"
     },
     "github-actions.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/github-actions",
@@ -188,8 +188,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2025-08-01T12:02:14.900903",
-    "fetch_duration_seconds": 16.595212,
+    "last_fetch_completed": "2025-08-01T18:01:57.783923",
+    "fetch_duration_seconds": 17.066168,
     "total_pages_discovered": 31,
     "pages_fetched_successfully": 31,
     "pages_failed": 0,
@@ -199,7 +199,7 @@
     "total_files": 31,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2025-08-01T12:02:14.900932",
+  "last_updated": "2025-08-01T18:01:57.783951",
   "base_url": "https://raw.githubusercontent.com/ericbuess/claude-code-docs/main/docs/",
   "github_repository": "ericbuess/claude-code-docs",
   "github_ref": "main",
