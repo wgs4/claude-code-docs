@@ -21,8 +21,8 @@
     "common-workflows.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/common-workflows",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/common-workflows.md",
-      "hash": "9c5d22072f675654c7dc136b152592cbadbe3be1367cfa5a4a79dc24562dcbd8",
-      "last_updated": "2025-07-31T03:30:16.980535"
+      "hash": "0e8bdfbd505637bf2028e63c5fe8b4e773928e52aedd75c6ea664b12b11b66d1",
+      "last_updated": "2025-08-05T00:04:48.166049"
     },
     "corporate-proxy.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/corporate-proxy",
@@ -105,8 +105,8 @@
     "mcp.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/mcp",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/mcp.md",
-      "hash": "d78fa3cdf83c31088db085763f3b1f61a1df6076bedc88e1e255369685306207",
-      "last_updated": "2025-07-31T03:30:24.437158"
+      "hash": "6a52e3d7dc71f8e0c12bab52ee61e1a495588996179021dfaab559d3f7f2e356",
+      "last_updated": "2025-08-05T00:05:09.809804"
     },
     "memory.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/memory",
@@ -188,8 +188,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2025-08-04T21:02:07.504909",
-    "fetch_duration_seconds": 38.893074,
+    "last_fetch_completed": "2025-08-05T00:05:27.099673",
+    "fetch_duration_seconds": 46.617303,
     "total_pages_discovered": 31,
     "pages_fetched_successfully": 31,
     "pages_failed": 0,
@@ -199,10 +199,9 @@
     "total_files": 31,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2025-08-04T21:02:07.504942",
+  "last_updated": "2025-08-05T00:05:27.099706",
   "base_url": "https://raw.githubusercontent.com/ericbuess/claude-code-docs/main/docs/",
   "github_repository": "ericbuess/claude-code-docs",
   "github_ref": "main",
-  "description": "Claude Code documentation manifest. Keys are filenames, append to base_url for full URL.",
-  "installer_version": "0.3.1"
+  "description": "Claude Code documentation manifest. Keys are filenames, append to base_url for full URL."
 }
