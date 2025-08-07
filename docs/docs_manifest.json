@@ -105,8 +105,8 @@
     "mcp.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/mcp",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/mcp.md",
-      "hash": "6a52e3d7dc71f8e0c12bab52ee61e1a495588996179021dfaab559d3f7f2e356",
-      "last_updated": "2025-08-05T00:05:09.809804"
+      "hash": "b7293619d5ee4433149a20717f7bbf418166dd41eccc60fd2a1f7e3e1e8bcd64",
+      "last_updated": "2025-08-07T18:01:54.769204"
     },
     "memory.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/memory",
@@ -141,8 +141,8 @@
     "security.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/security",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/security.md",
-      "hash": "23777a6e67401533edd4deeee8989bc22d2bde1e47e73b5c58ce325201b55f43",
-      "last_updated": "2025-08-06T00:05:24.944646"
+      "hash": "0f10cad64e06ffc97bb1fb177aad4efb994c2377c5ec562b8a5ff8e8771c6ba6",
+      "last_updated": "2025-08-07T18:01:57.967692"
     },
     "settings.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/settings",
@@ -188,8 +188,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2025-08-07T15:02:27.961466",
-    "fetch_duration_seconds": 16.997823,
+    "last_fetch_completed": "2025-08-07T18:02:01.640149",
+    "fetch_duration_seconds": 17.035589,
     "total_pages_discovered": 31,
     "pages_fetched_successfully": 31,
     "pages_failed": 0,
@@ -199,7 +199,7 @@
     "total_files": 31,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2025-08-07T15:02:27.961494",
+  "last_updated": "2025-08-07T18:02:01.640178",
   "base_url": "https://raw.githubusercontent.com/ericbuess/claude-code-docs/main/docs/",
   "github_repository": "ericbuess/claude-code-docs",
   "github_ref": "main",
