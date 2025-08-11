@@ -159,8 +159,8 @@
     "slash-commands.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/slash-commands",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/slash-commands.md",
-      "hash": "4750184e47ecdcc460fc29f734ea3f4f8c96be21649fe942fb34482bf9b0c0f1",
-      "last_updated": "2025-08-08T21:02:08.887725"
+      "hash": "104d5cab2ddbc3492056fb176ea78625302eb5d3b13c4f3c9a7949ce86f2d10e",
+      "last_updated": "2025-08-11T21:02:16.857079"
     },
     "statusline.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/statusline",
@@ -194,8 +194,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2025-08-11T18:02:01.214029",
-    "fetch_duration_seconds": 17.381315,
+    "last_fetch_completed": "2025-08-11T21:02:26.908044",
+    "fetch_duration_seconds": 49.792169,
     "total_pages_discovered": 32,
     "pages_fetched_successfully": 32,
     "pages_failed": 0,
@@ -205,7 +205,7 @@
     "total_files": 32,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2025-08-11T18:02:01.214056",
+  "last_updated": "2025-08-11T21:02:26.908073",
   "base_url": "https://raw.githubusercontent.com/ericbuess/claude-code-docs/main/docs/",
   "github_repository": "ericbuess/claude-code-docs",
   "github_ref": "main",
