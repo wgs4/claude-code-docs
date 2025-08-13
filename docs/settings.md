@@ -30,7 +30,10 @@ Code through hierarchical settings:
       "Read(~/.zshrc)"
     ],
     "deny": [
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./secrets/**)"
     ]
   },
   "env": {
@@ -44,31 +47,33 @@ Code through hierarchical settings:
 
 `settings.json` supports a number of options:
 
-| Key                          | Description                                                                                                                                                           | Example                                                 |
-| :--------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------ |
-| `apiKeyHelper`               | Custom script, to be executed in `/bin/sh`, to generate an auth value. This value will be sent as `X-Api-Key` and `Authorization: Bearer` headers for model requests  | `/bin/generate_temp_api_key.sh`                         |
-| `cleanupPeriodDays`          | How long to locally retain chat transcripts (default: 30 days)                                                                                                        | `20`                                                    |
-| `env`                        | Environment variables that will be applied to every session                                                                                                           | `{"FOO": "bar"}`                                        |
-| `includeCoAuthoredBy`        | Whether to include the `co-authored-by Claude` byline in git commits and pull requests (default: `true`)                                                              | `false`                                                 |
-| `permissions`                | See table below for structure of permissions.                                                                                                                         |                                                         |
-| `hooks`                      | Configure custom commands to run before or after tool executions. See [hooks documentation](hooks)                                                                    | `{"PreToolUse": {"Bash": "echo 'Running command...'"}}` |
-| `model`                      | Override the default model to use for Claude Code                                                                                                                     | `"claude-3-5-sonnet-20241022"`                          |
-| `forceLoginMethod`           | Use `claudeai` to restrict login to Claude.ai accounts, `console` to restrict login to Anthropic Console (API usage billing) accounts                                 | `claudeai`                                              |
-| `enableAllProjectMcpServers` | Automatically approve all MCP servers defined in project `.mcp.json` files                                                                                            | `true`                                                  |
-| `enabledMcpjsonServers`      | List of specific MCP servers from `.mcp.json` files to approve                                                                                                        | `["memory", "github"]`                                  |
-| `disabledMcpjsonServers`     | List of specific MCP servers from `.mcp.json` files to reject                                                                                                         | `["filesystem"]`                                        |
-| `awsAuthRefresh`             | Custom script that modifies the `.aws` directory (see [advanced credential configuration](/en/docs/claude-code/amazon-bedrock#advanced-credential-configuration))     | `aws sso login --profile myprofile`                     |
-| `awsCredentialExport`        | Custom script that outputs JSON with AWS credentials (see [advanced credential configuration](/en/docs/claude-code/amazon-bedrock#advanced-credential-configuration)) | `/bin/generate_aws_grant.sh`                            |
+| Key                          | Description                                                                                                                                                           | Example                                                     |
+| :--------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------- |
+| `apiKeyHelper`               | Custom script, to be executed in `/bin/sh`, to generate an auth value. This value will be sent as `X-Api-Key` and `Authorization: Bearer` headers for model requests  | `/bin/generate_temp_api_key.sh`                             |
+| `cleanupPeriodDays`          | How long to locally retain chat transcripts (default: 30 days)                                                                                                        | `20`                                                        |
+| `env`                        | Environment variables that will be applied to every session                                                                                                           | `{"FOO": "bar"}`                                            |
+| `includeCoAuthoredBy`        | Whether to include the `co-authored-by Claude` byline in git commits and pull requests (default: `true`)                                                              | `false`                                                     |
+| `permissions`                | See table below for structure of permissions.                                                                                                                         |                                                             |
+| `hooks`                      | Configure custom commands to run before or after tool executions. See [hooks documentation](hooks)                                                                    | `{"PreToolUse": {"Bash": "echo 'Running command...'"}}`     |
+| `model`                      | Override the default model to use for Claude Code                                                                                                                     | `"claude-3-5-sonnet-20241022"`                              |
+| `statusLine`                 | Configure a custom status line to display context. See [statusLine documentation](statusline)                                                                         | `{"type": "command", "command": "~/.claude/statusline.sh"}` |
+| `forceLoginMethod`           | Use `claudeai` to restrict login to Claude.ai accounts, `console` to restrict login to Anthropic Console (API usage billing) accounts                                 | `claudeai`                                                  |
+| `enableAllProjectMcpServers` | Automatically approve all MCP servers defined in project `.mcp.json` files                                                                                            | `true`                                                      |
+| `enabledMcpjsonServers`      | List of specific MCP servers from `.mcp.json` files to approve                                                                                                        | `["memory", "github"]`                                      |
+| `disabledMcpjsonServers`     | List of specific MCP servers from `.mcp.json` files to reject                                                                                                         | `["filesystem"]`                                            |
+| `awsAuthRefresh`             | Custom script that modifies the `.aws` directory (see [advanced credential configuration](/en/docs/claude-code/amazon-bedrock#advanced-credential-configuration))     | `aws sso login --profile myprofile`                         |
+| `awsCredentialExport`        | Custom script that outputs JSON with AWS credentials (see [advanced credential configuration](/en/docs/claude-code/amazon-bedrock#advanced-credential-configuration)) | `/bin/generate_aws_grant.sh`                                |
 
 ### Permission settings
 
-| Keys                           | Description                                                                                                                                        | Example                          |
-| :----------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------- |
-| `allow`                        | Array of [permission rules](/en/docs/claude-code/iam#configuring-permissions) to allow tool use                                                    | `[ "Bash(git diff:*)" ]`         |
-| `deny`                         | Array of [permission rules](/en/docs/claude-code/iam#configuring-permissions) to deny tool use                                                     | `[ "WebFetch", "Bash(curl:*)" ]` |
-| `additionalDirectories`        | Additional [working directories](iam#working-directories) that Claude has access to                                                                | `[ "../docs/" ]`                 |
-| `defaultMode`                  | Default [permission mode](iam#permission-modes) when opening Claude Code                                                                           | `"acceptEdits"`                  |
-| `disableBypassPermissionsMode` | Set to `"disable"` to prevent `bypassPermissions` mode from being activated. See [managed policy settings](iam#enterprise-managed-policy-settings) | `"disable"`                      |
+| Keys                           | Description                                                                                                                                                       | Example                                                                |
+| :----------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------- |
+| `allow`                        | Array of [permission rules](/en/docs/claude-code/iam#configuring-permissions) to allow tool use                                                                   | `[ "Bash(git diff:*)" ]`                                               |
+| `ask`                          | Array of [permission rules](/en/docs/claude-code/iam#configuring-permissions) to ask for confirmation upon tool use.                                              | `[ "Bash(git push:*)" ]`                                               |
+| `deny`                         | Array of [permission rules](/en/docs/claude-code/iam#configuring-permissions) to deny tool use. Use this to also exclude sensitive files from Claude Code access. | `[ "WebFetch", "Bash(curl:*)", "Read(./.env)", "Read(./secrets/**)" ]` |
+| `additionalDirectories`        | Additional [working directories](iam#working-directories) that Claude has access to                                                                               | `[ "../docs/" ]`                                                       |
+| `defaultMode`                  | Default [permission mode](iam#permission-modes) when opening Claude Code                                                                                          | `"acceptEdits"`                                                        |
+| `disableBypassPermissionsMode` | Set to `"disable"` to prevent `bypassPermissions` mode from being activated. See [managed policy settings](iam#enterprise-managed-policy-settings)                | `"disable"`                                                            |
 
 ### Settings precedence
 
@@ -100,6 +105,26 @@ This hierarchy ensures that enterprise security policies are always enforced whi
 * **MCP servers**: Extend Claude Code with additional tools and integrations
 * **Precedence**: Higher-level configurations (Enterprise) override lower-level ones (User/Project)
 * **Inheritance**: Settings are merged, with more specific settings adding to or overriding broader ones
+
+### Excluding sensitive files
+
+To prevent Claude Code from accessing files containing sensitive information (e.g., API keys, secrets, environment files), use the `permissions.deny` setting in your `.claude/settings.json` file:
+
+```json
+{
+  "permissions": {
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./secrets/**)",
+      "Read(./config/credentials.json)",
+      "Read(./build)"
+    ]
+  }
+}
+```
+
+This replaces the deprecated `ignorePatterns` configuration. Files matching these patterns will be completely invisible to Claude Code, preventing any accidental exposure of sensitive data.
 
 ## Subagent configuration
 
@@ -152,8 +177,9 @@ Claude Code supports the following environment variables to control its behavior
 | `MCP_TIMEOUT`                              | Timeout in milliseconds for MCP server startup                                                                                                                     |
 | `MCP_TOOL_TIMEOUT`                         | Timeout in milliseconds for MCP tool execution                                                                                                                     |
 | `MAX_MCP_OUTPUT_TOKENS`                    | Maximum number of tokens allowed in MCP tool responses (default: 25000)                                                                                            |
+| `USE_BUILTIN_RIPGREP`                      | Set to `1` to ignore system-installed `rg` and use `rg` included with Claude Code                                                                                  |
 | `VERTEX_REGION_CLAUDE_3_5_HAIKU`           | Override region for Claude 3.5 Haiku when using Vertex AI                                                                                                          |
-| `VERTEX_REGION_CLAUDE_3_5_SONNET`          | Override region for Claude 3.5 Sonnet when using Vertex AI                                                                                                         |
+| `VERTEX_REGION_CLAUDE_3_5_SONNET`          | Override region for Claude Sonnet 3.5 when using Vertex AI                                                                                                         |
 | `VERTEX_REGION_CLAUDE_3_7_SONNET`          | Override region for Claude 3.7 Sonnet when using Vertex AI                                                                                                         |
 | `VERTEX_REGION_CLAUDE_4_0_OPUS`            | Override region for Claude 4.0 Opus when using Vertex AI                                                                                                           |
 | `VERTEX_REGION_CLAUDE_4_0_SONNET`          | Override region for Claude 4.0 Sonnet when using Vertex AI                                                                                                         |

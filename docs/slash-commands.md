@@ -151,12 +151,12 @@ Slash commands can trigger extended thinking by including [extended thinking key
 
 Command files support frontmatter, useful for specifying metadata about the command:
 
-\| Frontmatter     | Purpose                                                                            | Default                             |
-\| :-------------- | :--------------------------------------------------------------------------------- | :---------------------------------- | ----------------------------------------------------------------------------- | ---- |
-\| `allowed-tools` | List of tools the command can use                                                  | Inherits from the conversation      |
-\| `argument-hint` | The arguments expected for the slash command. Example: `argument-hint: add [tagId] | remove [tagId]                      | list`. This hint is shown to the user when auto-completing the slash command. | None |
-\| `description`   | Brief description of the command                                                   | Uses the first line from the prompt |
-\| `model`         | `opus`, `sonnet`, `haiku`, or a specific model string                              | Inherits from the conversation      |
+| Frontmatter     | Purpose                                                                                                                                                                               | Default                             |
+| :-------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :---------------------------------- |
+| `allowed-tools` | List of tools the command can use                                                                                                                                                     | Inherits from the conversation      |
+| `argument-hint` | The arguments expected for the slash command. Example: `argument-hint: add [tagId] \| remove [tagId] \| list`. This hint is shown to the user when auto-completing the slash command. | None                                |
+| `description`   | Brief description of the command                                                                                                                                                      | Uses the first line from the prompt |
+| `model`         | Specific model string (see [Models overview](/en/docs/about-claude/models/overview))                                                                                                  | Inherits from the conversation      |
 
 For example:
 
@@ -165,7 +165,7 @@ For example:
 allowed-tools: Bash(git add:*), Bash(git status:*), Bash(git commit:*)
 argument-hint: [message]
 description: Create a git commit
-model: haiku
+model: claude-3-5-haiku-20241022
 ---
 
 An example command
