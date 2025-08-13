@@ -4,19 +4,19 @@
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/amazon-bedrock",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/amazon-bedrock.md",
       "hash": "25183f0f38898a54326ab0cbedf8dc36116309df228676b3f3d9401353796c49",
-      "last_updated": "2025-08-08T06:02:28.852935"
+      "last_updated": "2025-08-05T18:01:53.156548"
     },
     "analytics.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/analytics",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/analytics.md",
       "hash": "21d5d85a64d11712f4b8010211696ecd3ccda4a6a327a94000a95f73b054804e",
-      "last_updated": "2025-08-08T06:02:29.374269"
+      "last_updated": "2025-08-04T21:01:32.194638"
     },
     "cli-reference.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/cli-reference",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/cli-reference.md",
       "hash": "f2d053d06be70202879fb32364343f282bd05ffe4d300a46cd913cf71fd70e24",
-      "last_updated": "2025-08-08T06:02:29.895119"
+      "last_updated": "2025-07-31T03:30:16.456478"
     },
     "common-workflows.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/common-workflows",
@@ -28,7 +28,7 @@
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/corporate-proxy",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/corporate-proxy.md",
       "hash": "7af075f367046b0e3d9fa88328f56d9503a412561b2f53837e00ccd88c0784ad",
-      "last_updated": "2025-08-08T06:02:30.936711"
+      "last_updated": "2025-07-31T03:30:17.510296"
     },
     "costs.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/costs",
@@ -40,13 +40,13 @@
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/data-usage",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/data-usage.md",
       "hash": "7a8fd4e7dd09cb1735c9cf62d633d8e43bf5f4cb7c23a389ba0ae64c34185ed6",
-      "last_updated": "2025-08-08T06:02:32.656693"
+      "last_updated": "2025-08-06T00:04:51.571452"
     },
     "devcontainer.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/devcontainer",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/devcontainer.md",
       "hash": "9f0b062248ffc15d89f1653f16958144e4a8a30531f00585818b221a6aa843ae",
-      "last_updated": "2025-08-08T06:02:33.209244"
+      "last_updated": "2025-08-01T18:01:45.636193"
     },
     "github-actions.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/github-actions",
@@ -58,7 +58,7 @@
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/google-vertex-ai",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/google-vertex-ai.md",
       "hash": "656585037bc7105ca3171751b0ef64c86bc8d9bc2b8824849b93b628b024971c",
-      "last_updated": "2025-08-08T06:02:34.253492"
+      "last_updated": "2025-08-06T00:04:57.001522"
     },
     "hooks.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/hooks",
@@ -70,13 +70,13 @@
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/hooks-guide",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/hooks-guide.md",
       "hash": "fbc12b6ba7156d9adfe42148d983e5cc1e2de7cefdd8337d282be47931d1068d",
-      "last_updated": "2025-08-13T18:02:16.243589"
+      "last_updated": "2025-08-13T15:14:23.770270"
     },
     "iam.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/iam",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/iam.md",
       "hash": "1b3b0476551a9e3ee077632a48c250eaea8c049c950be8866afa8b78d7acdd69",
-      "last_updated": "2025-08-13T18:02:17.696559"
+      "last_updated": "2025-08-13T15:14:24.369595"
     },
     "ide-integrations.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/ide-integrations",
@@ -88,25 +88,25 @@
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/interactive-mode",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/interactive-mode.md",
       "hash": "1fc99235e8a00d0dfd339ac0063be9da4655ae72347b2419c53967d34b4efb31",
-      "last_updated": "2025-08-08T06:02:36.870875"
+      "last_updated": "2025-07-31T03:30:22.848992"
     },
     "legal-and-compliance.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/legal-and-compliance",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/legal-and-compliance.md",
       "hash": "a8355db3b48e8a5f9105b504cde190b84b35806762cea3fd2c0821f650c8dc83",
-      "last_updated": "2025-08-08T06:02:37.391691"
+      "last_updated": "2025-07-31T03:30:23.368363"
     },
     "llm-gateway.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/llm-gateway",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/llm-gateway.md",
       "hash": "635632a8fd0aba81cd6159772e55d81b9a52881f029826716bee2e68c8f82eee",
-      "last_updated": "2025-08-08T06:02:37.914639"
+      "last_updated": "2025-07-31T03:30:23.888599"
     },
     "mcp.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/mcp",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/mcp.md",
       "hash": "b7293619d5ee4433149a20717f7bbf418166dd41eccc60fd2a1f7e3e1e8bcd64",
-      "last_updated": "2025-08-07T18:01:54.769204"
+      "last_updated": "2025-08-13T15:14:27.530713"
     },
     "memory.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/memory",
@@ -136,76 +136,83 @@
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/sdk",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/sdk.md",
       "hash": "ecf51002b0be2167a02f8dea4cc4f738615d38c04b9253f31cfcd41a35a4540c",
-      "last_updated": "2025-08-13T18:02:33.840495"
+      "last_updated": "2025-08-13T15:14:30.693146"
     },
     "security.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/security",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/security.md",
       "hash": "0f10cad64e06ffc97bb1fb177aad4efb994c2377c5ec562b8a5ff8e8771c6ba6",
-      "last_updated": "2025-08-07T18:01:57.967692"
+      "last_updated": "2025-08-13T15:14:31.276907"
     },
     "settings.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/settings",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/settings.md",
       "hash": "ab7527da84ce751e4bf343f5ca02cb4d7cef2cd8b7a0eed35bec1d8f2fbbc628",
-      "last_updated": "2025-08-13T18:02:36.337984"
+      "last_updated": "2025-08-13T15:14:31.952750"
     },
     "setup.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/setup",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/setup.md",
       "hash": "e1f2e3ff68552ed05704ea4e0ecc69ae5a9f9b9a4e6313e360fce4555931c8a7",
-      "last_updated": "2025-08-13T18:02:37.749222"
+      "last_updated": "2025-08-13T15:14:32.598352"
     },
     "slash-commands.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/slash-commands",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/slash-commands.md",
       "hash": "104d5cab2ddbc3492056fb176ea78625302eb5d3b13c4f3c9a7949ce86f2d10e",
-      "last_updated": "2025-08-11T21:02:16.857079"
+      "last_updated": "2025-08-13T15:14:33.602777"
     },
     "statusline.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/statusline",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/statusline.md",
       "hash": "d89f58716146e6b60651420f2adefb84891b208172220e4fe5884735c5d079dd",
-      "last_updated": "2025-08-08T06:02:43.674179"
+      "last_updated": "2025-08-13T15:14:34.180933"
     },
     "sub-agents.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/sub-agents",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/sub-agents.md",
       "hash": "4897316c00d2bbb93701c5569580d521d11b430a0a7b37b96c7fea6946b58f5b",
-      "last_updated": "2025-08-08T06:02:44.194414"
+      "last_updated": "2025-07-31T03:30:29.643202"
     },
     "terminal-config.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/terminal-config",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/terminal-config.md",
       "hash": "f43b3d3ff68b017ff8c039aa896bc6dd5df213141f6341f4ed012ff05de08efb",
-      "last_updated": "2025-08-08T06:02:44.720923"
+      "last_updated": "2025-08-13T15:14:35.488994"
     },
     "third-party-integrations.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/third-party-integrations",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/third-party-integrations.md",
       "hash": "e56232ebb48800dcbdcc296bed2babc195ffa20a9ba43f78dbb55cd85587e29b",
-      "last_updated": "2025-08-08T06:02:45.240904"
+      "last_updated": "2025-08-04T21:02:06.242052"
     },
     "troubleshooting.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/troubleshooting",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/troubleshooting.md",
       "hash": "fd5e5a146c1802b97c08710fa7caa48778fd0c08218fe7eb194a72134197b296",
       "last_updated": "2025-07-31T21:01:51.705693"
+    },
+    "changelog.md": {
+      "original_url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+      "original_raw_url": "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md",
+      "hash": "fe3791c12739d6173ea8c0cdf18b7f05c67a084848745afe734d57d5374c9bc5",
+      "last_updated": "2025-08-13T15:14:36.960863",
+      "source": "claude-code-repository"
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2025-08-13T21:01:51.512282",
-    "fetch_duration_seconds": 18.093718,
+    "last_fetch_completed": "2025-08-13T15:14:36.960876",
+    "fetch_duration_seconds": 24.527737,
     "total_pages_discovered": 32,
-    "pages_fetched_successfully": 32,
+    "pages_fetched_successfully": 33,
     "pages_failed": 0,
     "failed_pages": [],
     "sitemap_url": "https://docs.anthropic.com/sitemap.xml",
     "base_url": "https://docs.anthropic.com",
-    "total_files": 32,
+    "total_files": 33,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2025-08-13T21:01:51.512307",
+  "last_updated": "2025-08-13T15:14:36.960885",
   "base_url": "https://raw.githubusercontent.com/ericbuess/claude-code-docs/main/docs/",
   "github_repository": "ericbuess/claude-code-docs",
   "github_ref": "main",
