@@ -33,8 +33,8 @@
     "costs.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/costs",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/costs.md",
-      "hash": "a1d8637771c0469a48d3aa1a13786610437864c3c0601296a61a4ceec6b5e2eb",
-      "last_updated": "2025-08-14T18:01:50.328146"
+      "hash": "709e1fdc58e92f401e9e7223d5b60e51e20e71f171069b47f3a0f6e83ef1125f",
+      "last_updated": "2025-08-18T18:01:49.610395"
     },
     "data-usage.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/data-usage",
@@ -105,8 +105,8 @@
     "mcp.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/mcp",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/mcp.md",
-      "hash": "8a3cbb8b3bb4bd4a3a1d5596c3620cd6ce1e75ae4cb5fad63426890f1723ef0c",
-      "last_updated": "2025-08-14T18:02:12.432184"
+      "hash": "899b30c745ea34d6dfef67566de8844a184196cc80c2b1f0de78fb7a4d4eae00",
+      "last_updated": "2025-08-18T18:02:11.340552"
     },
     "memory.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/memory",
@@ -165,8 +165,8 @@
     "slash-commands.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/slash-commands",
       "original_md_url": "https://docs.anthropic.com/en/docs/claude-code/slash-commands.md",
-      "hash": "24a8924495f52edd47b8eb778bd82b65d3bb41a7e803cc81488e46ea0b3fa93c",
-      "last_updated": "2025-08-14T18:02:20.765100"
+      "hash": "d196c5cf49d7ae86357c2ab23ec90a4f15eafadea28dacf4ade9ff0a09f34234",
+      "last_updated": "2025-08-18T18:02:23.695887"
     },
     "statusline.md": {
       "original_url": "https://docs.anthropic.com/en/docs/claude-code/statusline",
@@ -207,8 +207,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2025-08-18T15:02:06.213958",
-    "fetch_duration_seconds": 19.210072,
+    "last_fetch_completed": "2025-08-18T18:02:30.587455",
+    "fetch_duration_seconds": 50.432676,
     "total_pages_discovered": 33,
     "pages_fetched_successfully": 34,
     "pages_failed": 0,
@@ -218,7 +218,7 @@
     "total_files": 34,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2025-08-18T15:02:06.213985",
+  "last_updated": "2025-08-18T18:02:30.587479",
   "base_url": "https://raw.githubusercontent.com/ericbuess/claude-code-docs/main/docs/",
   "github_repository": "ericbuess/claude-code-docs",
   "github_ref": "main",
