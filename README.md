@@ -20,7 +20,7 @@ Local mirror of Claude Code documentation files from https://docs.anthropic.com/
 
 To update:
 ```bash
-curl -fsSL https://raw.githubusercontent.com/ericbuess/claude-code-docs/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/wgs4/claude-code-docs/main/install.sh | bash
 ```
 
 ## Why This Exists
@@ -50,7 +50,7 @@ This tool requires the following to be installed:
 Run this single command:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/ericbuess/claude-code-docs/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/wgs4/claude-code-docs/main/install.sh | bash
 ```
 
 This will:
@@ -127,7 +127,7 @@ Note: If automatic updates fail, you can always run the installer again to get t
 Regardless of which version you have installed, simply run:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/ericbuess/claude-code-docs/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/wgs4/claude-code-docs/main/install.sh | bash
 ```
 
 The installer will handle migration and updates automatically.
